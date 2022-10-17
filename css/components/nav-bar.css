@@ -1,8 +1,13 @@
 .nav {
   background-color: #f9f9fa;
   padding: 20px 40px;
+  border-top: 1px solid rgba(161, 160, 160, 0.425);
 }
 .nav__list {
   display: flex;
   justify-content: space-between;
+}
+
+.nav_link {
+  color: #00ff00;
 }
