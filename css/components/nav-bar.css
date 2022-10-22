@@ -1,6 +1,10 @@
 .nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: #f9f9fa;
-  padding: 20px 40px;
+  padding: 20px 50px;
+  box-sizing: border-box;
   border-top: 1px solid rgba(161, 160, 160, 0.425);
 }
 .nav__list {
@@ -10,4 +14,17 @@
 
 .nav_link {
   color: #00ff00;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
 }
