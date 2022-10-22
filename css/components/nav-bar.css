@@ -12,8 +12,9 @@
   justify-content: space-between;
 }
 
-.nav_link {
-  color: #00ff00;
+.nav__link {
+  position: relative;
+  color: #000000;
 }
 
 .nav__notification {
@@ -27,4 +28,6 @@
   color: white;
   font-weight: 600;
   position: absolute;
+  left:15px;
+  bottom: 15px;
 }
