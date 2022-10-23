@@ -14,7 +14,7 @@
 
 .nav__link {
   position: relative;
-  color: #000000;
+  color: #2e363e;
 }
 
 .nav__notification {
@@ -28,6 +28,6 @@
   color: white;
   font-weight: 600;
   position: absolute;
-  left:15px;
+  left: 15px;
   bottom: 15px;
 }
